@@ -1,0 +1,28 @@
+.Side_Menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    position: sticky;
+}
+
+.Side img{
+    height: 20px;
+
+}
+
+.Side_Menu .Side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60px;
+}
+
+.Side_Menu .Side p{
+    font-size: 12px;
+    margin-top: 5px; 
+}
+
+
+
+

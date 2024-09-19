@@ -1,0 +1,55 @@
+.Headers img{
+    height: 30px;
+    margin: 0px 15px 0px 15px;
+}
+
+input#Main_Search{
+    height: 28px;
+    border-top-left-radius: 15px;    
+    border-bottom-left-radius: 15px;    
+    border: 0.8px solid ;
+}
+
+img#Profile_Icon{
+    border-radius: 50px;
+}
+
+img#Mic_Icon{
+    border-radius: 50px; 
+}
+
+.Headers{
+    display: flex;
+    justify-items: center;
+    position:relative;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+#Search_Icon{
+    border: 1px solid grey;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px ;
+    padding:0px 10px 0px 10px;
+    margin-left: 0px;
+}
+
+.Head_Left{
+    display: flex;
+    /* margin-top: 10px; */
+    justify-items: flex-start;
+}
+
+.Head_Center{
+    display:flex ;
+    /* margin-top: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    flex: 0 1 0;
+}
+
+.Head_Right{
+    display: flex;
+    margin-left: auto;
+}
+
